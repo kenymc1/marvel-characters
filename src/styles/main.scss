@@ -16,11 +16,18 @@ background-image: url(/src/img/banner.png);
  background-color: whitesmoke;
 }
 
+h4 .mail {
+  color: white;
+}
 // -------------------------------------------------------------------------about
 
 #about {
-  background-color: #808080;
+  background-image: url(/src/img/xmen-background.png);
   padding: 30px;
+  background-size: 200%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
 }
 
@@ -43,9 +50,10 @@ background-image: url(/src/img/banner.png);
 
 // ---------------------------------------------------------------------------------card
 
-#teams {
-  padding-left: 20px;
+#teams h1{
+  padding-top: 30px;
 }
+
 .card-body {
   border-radius: 60px;
   align-content: center;
@@ -62,13 +70,51 @@ margin-bottom: 40px;
 
 //--------------------------------------------------------------------------------- article
 
-.article p {
-  padding-left: 80px;
-  padding-right: 80px;
+.article {
+  background-image: url(/src/img/xmen-background.png);
+  height: 250px;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  // margin-bottom: 80px;
+  color: azure;
+  text-align: center;
+  padding-top: 20px;
 }
 
+// .article p {
+//   padding-left: 80px;
+//   padding-right: 80px;
+//   padding-bottom: 40px;
+// }
+
+#article h4::after {
+  content: "";
+  background: white;
+  display: block;
+  height: 3px;
+  width: 300px;
+  margin: 20px auto 5px;
+}
+#article p::after {
+  content: "";
+  background: white;
+  display: block;
+  height: 3px;
+  width: 300px;
+  margin: 20px auto 5px;
+}
 // ---------------------------------------------------------------------------------footer
 
 #footer {
   background-color:  #808080;
+}
+
+.fab {
+  font-size: 40px;
+  padding-top: 10px;
+  margin: 20px;
 }
