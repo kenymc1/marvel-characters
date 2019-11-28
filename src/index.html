@@ -1,18 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <title>Marvel Heroes</title>
-</head>
-<body>
-  <!--------------------------------------------------------------------------------- <Nav> ----------------------___--------------------->
-  <h1>test</h1>
-  <button class="btn btn-danger">help</button>
-  
-  <!--------------------------------------------------------------------------------- <script> ------------------------------------------->
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/1c3c2830bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Marvel Heroes</title>
+  </head>
+  <body>
+    <!--------------------------------------------------------------------------------- <Nav> ------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light nav-pills bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/src/img/marvel_logo.png"
+          width="70"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >X-Men <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Avengers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Guardians</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--------------------------------------------------------------------------------- <mailing list> ------------------------------------------->
+    <form class="form-inline">
+      <div class="form-group mb-2 ml-auto">
+        <label for="staticEmail2" class="sr-only">email</label>
+        <h4 class="mail">Join Our Mailing List to stay in the loop</h4>
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="email" class="sr-only">email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="email@example.com"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form>
+    <!--------------------------------------------------------------------------------- <about> ------------------------------------------->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md 6">
+            <img src="/src/img/x-men.png" class="xmen" alt="" />
+          </div>
+          <div class="col-md 6">
+            <h1 class="text-center">What Team Will You Join?</h1>
+            <h4 class="text-center">Sort Your Favorite Super hero Teams</h4>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,Lorem,
+              ipsum dolor sit amet consectetur adipisicing elit. Deserunt qui,
+              ipsa, facilis inventore tempora maxime laborum vitae deleniti
+              unde, asperiores autem dolor ipsam quidem Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit. Perferendis iusto incidunt
+              impedit officia exercitationem autem odio! Dolorem saepe quis
+              tempora. Doloribus aspernatur nostrum voluptatem at tenetur
+              incidunt sint sapiente debitis. voluptas voluptatibus expedita
+              sequi nesciunt voluptatem. laboriosam aut minima ullam minus
+              officia soluta autem quasi. Quaerat commodi neque modi vel. Amet
+              suscipit nulla perferendis modi eos non!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------------------------------- <cards> ------------------------------------------->
+    <section id="teams">
+      <div>
+        <h1 class="text-center">Meet Your Team</h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="card col-md-4" style="width: 300px">
+            <div class="card-body">
+              <h4 class="text-center">SuperHero</h4>
+              <img
+                src="https://i.annihil.us/u/prod/marvel/i/mg/c/90/537bc196df2fb/standard_xlarge.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis omnis at exercitationem nobis, hic tempore velit
+                voluptates reiciendis pariatur nisi debitis vero repellat porro
+                natus eius et facilis ullam quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4" style="width: 300px">
+            <div class="card-body">
+              <h4 class="text-center">SuperHero</h4>
+              <img
+                src="https://i.annihil.us/u/prod/marvel/i/mg/c/c0/537bc5db7c77d/standard_xlarge.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis omnis at exercitationem nobis, hic tempore velit
+                voluptates reiciendis pariatur nisi debitis vero repellat porro
+                natus eius et facilis ullam quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4" style="width: 300px">
+            <div class="card-body">
+              <h4 class="text-center">SuperHero</h4>
+              <img
+                src="https://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087/standard_xlarge.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis omnis at exercitationem nobis, hic tempore velit
+                voluptates reiciendis pariatur nisi debitis vero repellat porro
+                natus eius et facilis ullam quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4" style="width: 300px">
+            <div class="card-body">
+              <h4 class="text-center">SuperHero</h4>
+              <img
+                src="https://i.annihil.us/u/prod/marvel/i/mg/9/70/537bab57b84d4/standard_xlarge.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis omnis at exercitationem nobis, hic tempore velit
+                voluptates reiciendis pariatur nisi debitis vero repellat porro
+                natus eius et facilis ullam quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4" style="width: 300px">
+            <div class="card-body">
+              <h4 class="text-center">SuperHero</h4>
+              <img
+                src="https://i.annihil.us/u/prod/marvel/i/mg/c/80/537ba9fe1c75a/standard_xlarge.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis omnis at exercitationem nobis, hic tempore velit
+                voluptates reiciendis pariatur nisi debitis vero repellat porro
+                natus eius et facilis ullam quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4" style="width: 300px">
+            <div class="card-body">
+              <h4 class="text-center">SuperHero</h4>
+              <img
+                src="https://i.annihil.us/u/prod/marvel/i/mg/7/10/538caf1975d39/standard_xlarge.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis omnis at exercitationem nobis, hic tempore velit
+                voluptates reiciendis pariatur nisi debitis vero repellat porro
+                natus eius et facilis ullam quisquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------------------------------------------- <contact> ------------------------------------------->
+    <section id="article">
+      <div class=" container article">
+        <div class="row">
+          <h4 class="text-center col-md-12">
+            The Most Thrilling Super Hero App
+          </h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. A possimus enim
+            asperiores eum dignissimos, similique dicta suscipit ipsam quaerat
+            veritatis soluta quam ratione tempora aperiam maiores voluptas modi
+            dolorum placeat. Illum voluptatibus fugiat totam, delectus maxime,
+            minima molestiae porro earum reprehenderit illo debitis sint
+            quisquam cum odit voluptates iusto blanditiis. Hic, enim.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------------------------------------------------- <footer> ------------------------------------------->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <img src="" alt="" />
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-youtube-square"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------------------------------------------- <script> ------------------------------------------->
+  </body>
 </html>
