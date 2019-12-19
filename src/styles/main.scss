@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 
+$base-color: blue;
 
+#teams h3 {
+  color: blue;
+}
 body {
   background-color:white;
 }
@@ -54,21 +58,31 @@ h4 .mail {
   padding-top: 30px;
 }
 
+#teams .btn {
+  margin-bottom: 20px;
+  margin-left: 46%;
+}
+
 .card-body {
-  border-radius: 60px;
+  border-radius: 20%;
   align-content: center;
-  padding-left: 55px;
-margin-bottom: 40px;
+  margin-bottom: 5%px;
 }
 
 .card-body img {
-  border-radius: 52%;
-  border: 5px solid pink;
+  border-radius: 50%;
+  border: 5px solid $base-color;
+  @if genderId = 0{ border: 5px solid pink;
+    
+  }
   margin: 20px;
-  
-}
+  }
 
-//--------------------------------------------------------------------------------- article
+.custom-control {
+  margin-bottom: 2%;
+  align-content: center;
+}
+//------------c--------------------------------------------------------------------- article
 
 .article {
   background-image: url(/src/img/xmen-background.png);

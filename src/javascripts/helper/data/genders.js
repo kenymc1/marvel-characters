@@ -8,3 +8,5 @@ const genders = [
     type: 'Male',
   },
 ];
+
+export default (genders);

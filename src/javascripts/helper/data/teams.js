@@ -5,10 +5,12 @@ const teams = [
   },
   {
     id: 'team1',
-    name: 'The Avengers',
+    name: 'Avengers',
   },
   {
     id: 'team2',
-    name: 'Guardians of the Galaxy',
+    name: 'Guardians',
   },
 ];
+
+export default (teams);

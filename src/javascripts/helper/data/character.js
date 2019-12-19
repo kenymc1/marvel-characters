@@ -5,7 +5,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender0',
     name: 'Rogue',
-    description: '',
+    description: 'After she discovered her mutant powers—that, by touch, she was able to absorb memories, powers, and personality traits from others—Rogue went on a long journey that ultimately led her to become a leader for both the X-Men and the Avengers.',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/c/90/537bc196df2fb/standard_xlarge.jpg',
   },
   {
@@ -61,7 +61,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender1',
     name: 'Beast',
-    description: '',
+    description: 'Henry McCoy grew up taunted as “Monkey Boy” and “Joe Bananas” because of his apelike appearance; when he was identified as a mutant, his parents rejected him as well. Henry chose to hide his immense intelligence to avoid further complications. In his late teens he was recruited by Jean Grey (Marvel Girl) and dubbed Beast, becoming a founding member of Charles Xavier‘s X-Men. ',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/6/40/537ba156b62e6/standard_xlarge.jpg',
   },
   {
@@ -69,7 +69,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender1',
     name: 'Cyclops',
-    description: '',
+    description: 'Scott Summers was the first of two sons born to Major Christopher Summers and his wife Katherine. Christopher was flying his family home from vacation when their plane was attacked by a spacecraft from the interstellar Shiar Empire. To save their lives Katherine pushed Scott and his brother Alex out of the plane with the only available parachute. Scott suffered a head injury upon landing, thus forever preventing him from controlling his mutant power by himself.',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/6/70/526547e2d90ad/standard_xlarge.jpg',
   },
   {
@@ -77,7 +77,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender0',
     name: 'Emma Frost',
-    description: '',
+    description: 'Emma Frost was born into a wealthy old Boston mercantile family that arrived from England in the 1600s. The second of three daughters, Emma also had an older brother named Christian who had turned to substance abuse as an escape from the drudgery of his life. Unknown to their family or themselves, the three Frost sisters were mutants whose telepathic abilities matured upon reaching puberty.',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/c/80/537ba9fe1c75a/standard_xlarge.jpg',
   },
   {
@@ -137,3 +137,5 @@ const characters = [
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg',
   },
 ];
+
+export default { characters };
