@@ -14,6 +14,6 @@ A small app that sort out Marvel Super Heros into thier team affiliations
 * clown down this project
 * insall[ http-server](https://www.npmjs.com/)
 from npm
-* at the root of this project run the folling command `hs -8080`;
+* at the root of this project run the folling command `hs -8080`;
 
-* in your browser navigate to `http://localhost:8080`
+* in your browser navigate to `http://localhost:8080`
