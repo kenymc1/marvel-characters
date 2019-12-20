@@ -7,7 +7,8 @@ A basic website to sort Marvel heroes into teams
 A small app that sort out Marvel Super Heros into thier team affiliations
 
 ## Screenshots
-![]
+https://github.com/kenymc1/marvel-characters/issues/1#issue-540056566
+
 
 
 ## How to run
